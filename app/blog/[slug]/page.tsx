@@ -4,7 +4,7 @@ import Image from "next/image";
 import { fullBlog } from "@/app/lib/interface";
 import { PortableText } from "next-sanity";
 
-export const revalidate = 30;
+export const revalidate = 60;
 
 async function getData(slug: string) {
   const query = `
