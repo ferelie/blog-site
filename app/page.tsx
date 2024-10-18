@@ -5,7 +5,7 @@ import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 
-export const revalidate = 3600;
+export const revalidate = 30;
 
 async function getData() {
   const query = `
