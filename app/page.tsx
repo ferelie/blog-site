@@ -13,7 +13,7 @@ async function getData() {
     "currentSlug": slug.current,
     titleImage,
 }`;
-  const data = await client.fetch(query);
+  const data = await client.fetch(query)
   console.log(data)
   return data;
 }
